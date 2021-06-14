@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 <body id="mybody" onload="doSomething()">
-    <h1 id="p1">Blogfy</h1>
+    <h1 id="p1">Blogify</h1>
     <div class="blogs">
         <div id="btn">
             <input type="text" id="blog" name="Brenda - The Mad Scientist">
@@ -23,6 +23,33 @@
             <h3 id="hasSomething"></h3>
         </div>
     </div>
+
+    <p id="p2">The DOM is a top down representation of all the elements that make up a web page. It's the interface through which your script interacts with your HTML.So HTML and JS are   different languages but the DOM api helps  the two communicate to come up with interactive  and dynamic websites.
+        In a nutshell , with DOM we are able to manipulate what is in our  HTML and CSS directly from our JS code .
+        HOW ?
+        Well, DOM takes advantage of all the attributes we give to our HTML element eg name ,id ,class etc. In DOM ,all html elements are objects and  are divided  into Root-elements(),parents ,children,siblings,previous sibling and next sibling.
+        There are many properties and methods which you can use to manipulate elements in DOM.These methods are combined with the knowledge on the DOM  objects creating a unique DOM syntax.
+        In our code , we have the "html " element which is a root node as it has no parent.The "html"  elememt also is a parent as in it  , there are
+        other elements namely ,  the head  and  the body  elements.These two according to DOM syntax are children of html element , thus they are siblings.Also the head is the previous child  as it comes before the body which is the next child according to DOM syntax.
+        Now in HTML we give our elements attributes such as name , ID ,class etc .We use these attributes and objects in combination with methods dictated by the  DOM syntax  to come up with code that manipulates both the HTML and CSS of a web page from the JS part of the web page.
+        <br><br>Example: <br> <br>
+        document.getElementById("body").setAttribute("style","background-color:#F5D95A;")
+    </p>
+    
     <script src="/main.js"></script>
+
+
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
